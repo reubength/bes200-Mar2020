@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="ILookupOnCallDevelopers.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="microsoft.aspnet.webapi.client" Version="5.2.7" />
     <PackageReference Include="microsoft.aspnetcore.mvc.testing" Version="3.1.3" />
     <PackageReference Include="microsoft.entityframeworkcore.inmemory" Version="3.1.3" />
